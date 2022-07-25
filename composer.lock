@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a68d8b390e5e9272e61271871569e5b",
+    "content-hash": "f2d8cc66e256657f5085521ef62f1d93",
     "packages": [
         {
             "name": "dflydev/dot-access-data",
@@ -2674,6 +2674,58 @@
                 "source": "https://github.com/sensiolabs/SensioFrameworkExtraBundle/tree/v6.2.6"
             },
             "time": "2022-01-14T11:51:13+00:00"
+        },
+        {
+            "name": "stolt/json-lines",
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/raphaelstolt/json-lines.git",
+                "reference": "40702b6b09ceba485b31fe0664890f2ae5409110"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/raphaelstolt/json-lines/zipball/40702b6b09ceba485b31fe0664890f2ae5409110",
+                "reference": "40702b6b09ceba485b31fe0664890f2ae5409110",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "phpunit/phpunit": "4.8.*",
+                "stolt/lean-package-validator": "^1.5"
+            },
+            "suggest": {
+                "ext-zlib": "Allow gzip compression of JSON Lines when writing to a file"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Rs\\JsonLines\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Raphael Stolt",
+                    "email": "raphael.stolt@gmail.com"
+                }
+            ],
+            "description": "Library for the JSON Lines text file format.",
+            "keywords": [
+                "json",
+                "jsonlines"
+            ],
+            "support": {
+                "issues": "https://github.com/raphaelstolt/json-lines/issues",
+                "source": "https://github.com/raphaelstolt/json-lines/tree/v2.1.0"
+            },
+            "time": "2021-02-12T10:28:45+00:00"
         },
         {
             "name": "symfony/apache-pack",
