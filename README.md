@@ -1,4 +1,48 @@
-Symfony Demo Application
+# MySale Coding Challenge 1
+
+Hello, welcome, and congratulations on getting this far in the interview process! This stage is designed to test your knowledge of Symfony, coding style, and software development best practices.
+
+## Task
+
+The [coding-challenge-1.jsonl](coding-challenge-1.jsonl) file is in [jsonlines format](http://jsonlines.org) with each line representing an online order. Each order contains information about the customer, the shipping address, and the items in the order. The [coding-challenge-1.jsonl](coding-challenge-1.jsonl) file was generated using Mockaroo. The schema can be [found here](https://mockaroo.com/b51ce860).
+
+You need to write a Symfony API that parses this file and returns a summary of the orders.
+
+The response should be an array in JSON format that contains the following information for each order:
+
+```
+order_id            The ID of the order.
+order_date          The date that the order was placed in the format of DD/MM/YYYY.
+total_order_value   The total value of the items in the order, excluding shipping, with discounts applied. Note that discounts do not apply to shipping.
+average_unit_price  The average unit price of the items in the order.
+unit_count          The total number of units in the order.
+customer_state      The state that the order was delivered to.
+```
+
+## Requirements
+
+* Please complete the task using the latest version of PHP and Symfony.
+* Create a *private* repository on GitHub to store your code and commit log.
+* Commit regularly with informative messages.
+* Create a README.md with anything you would like us to know about your code base. For example, perhaps you would like to explain why you chose a certain solution, or dependency, or which bonus points you attempted and why.
+* The reviewer will execute the following commands to get your project initialised and running:
+
+```shell
+git clone $YOUR_REPO_PATH
+cd $YOUR_REPO_NAME
+composer install
+symfony serve
+```
+
+## Recommendations
+
+* Use third party libraries where appropriate. If you want to write your own component when there are perfectly good solutions off-the-shelf, please submit your reasons for doing so.
+* Use a code formatter, linter and/or static analysis tool to ensure consistent code style. Symfony's Coding Standards are good.
+* Ensure your code is well-structured, and not all in one file.
+
+
+
+Forked from - Symfony Demo Application
 ========================
 
 The "Symfony Demo Application" is a reference application created to show how
