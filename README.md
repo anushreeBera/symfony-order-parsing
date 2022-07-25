@@ -1,3 +1,7 @@
+# Libraries used
+
+https://libs.garden/php/raphaelstolt/json-lines
+
 # MySale Coding Challenge 1
 
 Hello, welcome, and congratulations on getting this far in the interview process! This stage is designed to test your knowledge of Symfony, coding style, and software development best practices.
